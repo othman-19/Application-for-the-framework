@@ -1,0 +1,26 @@
+/*NAVABAR*/
+
+#navbar-ul{
+    background:white;
+    display: inline-block;
+    width:50%;
+    border:1px solid red;
+}
+
+.navbar-li{
+    display:inline-block;
+    margin-left: 2em;
+}
+
+.navbar-li a{
+    text-decoration: none;
+    color:black
+}
+
+#logo{
+    max-width:30%;
+    
+}
+#logo-div{
+display:inline-block;
+}
