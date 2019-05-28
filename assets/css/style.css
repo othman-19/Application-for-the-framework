@@ -51,13 +51,11 @@ nav{
 /* 2 - Main content */
 
 .box-main{
-    border: 1px solid black;
-    height: 14rem;
+    height: auto;
 }
 
 .box-new{
-    border: 1px solid black;
-    height: 8rem;
+    height: 3rem;
 }
 
 #big-logo{
@@ -66,16 +64,49 @@ nav{
     z-index:-1;
 }
 
+.text-dates{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 2%;
+}
+
+.box-new{
+    padding-left: 2%;
+}
+
+.new-minibox{
+    height: 1.5rem;
+    width: 3rem;
+    background: firebrick;
+    margin-top: 2%;
+    border-radius: 3px;
+}
+
+.text-newmini{
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 11%;
+}
+
+.date-above{height: 1.9rem; padding-bottom: 8%;}
+
+.box-main-up{ height: 4rem; }
+.box-main h2{font-size: 2.5em;}
+
+.box-main-mid{ height: 2rem; padding-left: 35%;}
+.box-main span{font-size: 1.2em;}
+
+.box-main-down{width: 100%; }
+.box-main p{font-size: 1.5em; margin-left: 0%; }
 
 /* 3 - More from a list apart */
 
 .box-lista{
-    border: 1px solid black;
-    height: 17rem;
+    height: auto;
 }
 
 .box-banner{
-    border: 1px solid black;
     height: 7rem;
     background: gainsboro;
 }
@@ -83,6 +114,7 @@ nav{
 .title-lista{ 
     font-size: 2.5em;
     font-weight: lighter;
+    padding-top: 3%;
 }
 
 .no-appear{visibility: hidden;}
@@ -92,7 +124,6 @@ nav{
 }
 
 
-.try-row{border:2px solid red; }
 
 .h2-lista{ font-size: 1.2em;}
 
@@ -108,7 +139,6 @@ nav{
 
 
 .ad2-up{
-border: 1px solid black;
 height: 7rem;
 }
 
@@ -118,10 +148,24 @@ height: 7rem;
 }
 
 .ad2-down{
-
+padding: 1%;
+height: auto;
 }
 
+.ad2-down p{
+    margin-right: 8%;
+    margin-bottom: 2%;
+}
 
+/* 3 - banner styling */
+
+.box-banner{height: auto; margin-top: 2%;}
+
+.box-banner p{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 8%;
+}
 /* 4 - Footer */
 
 footer{

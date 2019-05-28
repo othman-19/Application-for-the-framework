@@ -120,7 +120,8 @@ body{
         display: block;
         clear: both; 
         height: auto;
-        width: 100%; }
+        width: 100%; 
+    }
 
 
 
@@ -200,6 +201,12 @@ h3{ color: gray;  }
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;  }
+
+.justify-left{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left; }
     
 
 
@@ -208,4 +215,10 @@ h3{ color: gray;  }
 
 .container{
     margin-top: 2%;
+}
+
+/* Div propierties */ 
+
+.auto-box{
+    height: auto;
 }
