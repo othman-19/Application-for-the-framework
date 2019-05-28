@@ -1,55 +1,38 @@
 /*NAVABAR*/
 
+
 #navbar-ul{
     background:white;
     display: inline-block;
-    width:50%;
-    border:1px solid red;
+
+   
 }
 
 .navbar-li{
     display:inline-block;
-    margin-left: 2em;
+    margin-left: 1em;
+    margin-top:1.8em;
+    font: Bolder 1em/1.2 'Libre Franklin', sans-serif; 
 }
 
 .navbar-li a{
     text-decoration: none;
     color:black
 }
+.navbar-logo{
+    float:left;
+    margin-left: 1em;
+}
+
+
 
 #logo{
-    max-width:30%;
+   max-width: 20%;
+    display:block;
+    margin:auto;
     
 }
-#logo-div{
-display:inline-block;
-}
-/* 1- Header */
 
-#navbar-ul{
-    background:white;
-    display: inline-block;
-    width:50%;
-    border:1px solid red;
-}
-
-.navbar-li{
-    display:inline-block;
-    margin-left: 2em;
-}
-
-.navbar-li a{
-    text-decoration: none;
-    color:black
-}
-
-#logo{
-    max-width:30%;
-    
-}
-#logo-div{
-display:inline-block;
-}
 
 
 /* 2 - Main content */

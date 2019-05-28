@@ -104,10 +104,25 @@ body{
     float:left; }
 
 
-div[class*="col"]::after, div[rel*="col"]::after {
+[class*="col"]::after{
     content: "";
     clear: both;
     display: table; }
+
+[class*="col"]::before{
+
+    content: "";
+    clear: both;
+    display: table; }
+
+
+.try-row{
+        display: block;
+        clear: both; 
+        height: auto;
+        width: 100%; }
+
+
 
 /* Font styling */
 
@@ -150,107 +165,6 @@ h1, h2, h3, h4, h5, h6
 ul, ol{list-style: none;}
  
 img{border: 0;}
-
-
-/*grid*/
-
-body{
-    margin-right:0.5%;
-    margin-left:0%; }
-
-
-.col-1{
-    width:7.25%;
-    margin-left:0 0 1% 1%;
-    float:left; }
-
-
-.col-2{
-    width:15.5%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-3{
-    width:23.75%;
-    margin:0 0 1% 1%;
-    float:left;
-    background: pink; }
-
-
-.col-4{
-    width:32%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-5{
-    width:40.25%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-6{
-    width:48.5%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-7{
-    width:56.75%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-8{
-    width:65%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-9{
-    width:73.25%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-10{
-    width:81.5%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-11{
-    width:89.75%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-.col-12{
-    width:98%;
-    margin:0 0 1% 1%;
-    float:left; }
-
-
-[class*="col"]::before{
-
-        content: "";
-        clear: both;
-        display: table; }
-    
-    
-div[rel*="col"]::after {
-        content: "";
-        clear: both;
-        display: table; }
-
-
-.try-row{
-            display: block;
-            clear: both; 
-            height: auto;
-            width: 100%; }
-
 
 
 /* Font styling */
