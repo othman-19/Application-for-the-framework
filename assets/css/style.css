@@ -165,7 +165,7 @@ nav{
 
 .gborder{border: 1px solid gainsboro;}
 
-.wbackground{background: whitesmoke; }
+.wbackground{background: rgb(235, 235, 235); }
 
 
 /* 3- ad columns at the right within the third container */
@@ -213,3 +213,70 @@ footer{
     margin-top:0.5em;
 }
 
+.footer-images{
+    height: 7rem;
+    display: block;
+}
+
+
+.box-footer{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.do-w-hover:hover{background: whitesmoke;}
+
+
+.box-footer-left{ 
+    width: 40%;
+    height: 100%;
+    padding: 3%;
+}
+
+.box-footer-left img{
+
+    width: 100%;
+    
+}
+
+.box-footer-right{ 
+    width: 60%;
+    height: 100%;
+}
+
+.box-footer-right h2{
+    margin-top: 4%;
+    font-size: 0.9em;
+}
+
+.box-footer-right p{
+    font-size: 0.7em;
+
+}
+
+.box-footer-right span{
+    font-size: 0.75em;
+    margin-left: 8%;
+}
+
+
+.footer-logo{
+    margin-top: 2.5%;
+    width: 72%;
+}
+
+.right-wing img{
+width: 35%; 
+margin-top: 1%;
+margin-left: 80%;
+}
+
+.left-wing img{
+    width: 30%;
+    margin-top: 20%;
+margin-left: 47%;
+    }
