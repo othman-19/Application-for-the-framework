@@ -37,19 +37,29 @@
 
 /* 2 - Main content */
 
+.box-main{
+    border: 1px solid black;
+    height: 14rem;
+}
+
+.box-new{
+    border: 1px solid black;
+    height: 8rem;
+}
+
 
 
 /* 3 - More from a list apart */
 
 .box-lista{
     border: 1px solid black;
-    height: 15rem;
+    height: 17rem;
 }
 
 .box-banner{
     border: 1px solid black;
     height: 7rem;
-    background: whitesmoke;
+    background: gainsboro;
 }
 
 .title-lista{ 
@@ -66,5 +76,38 @@
 
 .try-row{border:2px solid red; }
 
+.h2-lista{ font-size: 1.2em;}
+
+.h3-lista{font-size: 0.7em;}
+
+
+.gborder{border: 1px solid gainsboro;}
+
+.wbackground{background: whitesmoke; }
+
+
+/* 3- ad columns at the right within the third container */
+
+
+.ad2-up{
+border: 1px solid black;
+height: 7rem;
+}
+
+.ad2-up img{
+    margin-top: 4%;
+    width: 37%;
+}
+
+.ad2-down{
+
+}
+
 
 /* 4 - Footer */
+
+footer{
+    margin-top: 10%;
+    height: 25rem;
+    background: gainsboro;
+}

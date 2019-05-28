@@ -173,7 +173,7 @@ h2{ font-weight: bold; color: black; }
 
 h2:hover{ text-decoration: underline black; }
 
-p{ color: black; }
+p{ color: black; margin-left: 8%; margin-top: 1%; line-height: 1.5em; }
 
 h3{ color: gray;  }
 
@@ -181,18 +181,26 @@ h3{ color: gray;  }
 
 .author-line:hover{text-decoration: underline rgb(54, 103, 238);}
 
-.by-line{ color: black; font-weight: lighter;}
+.by-line{ color: black; font-weight: lighter; margin-left: 8%;}
+
 
 
 
 /* align elements */ 
 
 .text-center{
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;   }
+
+
+.item-center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;  }
+    
 
 
 
