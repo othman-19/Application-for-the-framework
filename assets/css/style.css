@@ -1,4 +1,8 @@
 /*NAVABAR*/
+ul{
+    font-family: 'Libre Franklin', sans-serif;
+
+}
 nav{
     background:rgba(255, 255, 255, 0.95);
 }
@@ -10,7 +14,7 @@ nav{
 .navbar-li{
     display:inline-block;
     margin:1em 0 0.5em 1em;
-    font: Bolder 1em/1.2 'Libre Franklin', sans-serif; 
+
 }
 
 .navbar-li a{
@@ -35,16 +39,38 @@ nav{
     float:right;
     margin:0.6em 3em 0 0;
     padding: 2px;
-    width:15em;
+    width:8em;
     height: 1.5em;
     background: black;
     border-radius: 10px;
+}
+
+#form:hover{
+    width:15em; 
+}
+#search-input:hover{
+    width:80%;
 }
 #search-input{
     width:80%; 
     border-radius: 10px;
     margin-left:0.3em;
 }
+#search-icon{
+    color:white;
+    font-size: 0.8em;
+}
+
+#form:hover{
+    animation: mymove 0.5s;
+    animation-fill-mode: forwards;
+   }
+
+@keyframes mymove {
+    from {width: 8em;}
+    to {width: 15em;}
+  }
+
 #search-icon{
     color:white;
 }
@@ -100,6 +126,13 @@ nav{
 .box-main-down{width: 100%; }
 .box-main p{font-size: 1.5em; margin-left: 0%; }
 
+#top-right-box{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    background:rgba(255, 255, 255, 0.90);
+    position:relative;
+    bottom:11em;
+}
 /* 3 - More from a list apart */
 
 .box-lista{
@@ -173,3 +206,10 @@ footer{
     height: 25rem;
     background: gainsboro;
 }
+#footer-ul{
+    background: gainsboro;
+}
+#footer-ul-social{
+    margin-top:0.5em;
+}
+

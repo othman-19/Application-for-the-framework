@@ -184,7 +184,9 @@ h3{ color: gray;  }
 
 .by-line{ color: black; font-weight: lighter; margin-left: 8%;}
 
-
+.h4{
+    font-weight: bold; color: black; font-size:8pt;
+}
 
 
 /* align elements */ 
