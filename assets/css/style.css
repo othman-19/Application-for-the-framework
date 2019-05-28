@@ -24,3 +24,64 @@
 #logo-div{
 display:inline-block;
 }
+/* 1- Header */
+
+#navbar-ul{
+    background:white;
+    display: inline-block;
+    width:50%;
+    border:1px solid red;
+}
+
+.navbar-li{
+    display:inline-block;
+    margin-left: 2em;
+}
+
+.navbar-li a{
+    text-decoration: none;
+    color:black
+}
+
+#logo{
+    max-width:30%;
+    
+}
+#logo-div{
+display:inline-block;
+}
+
+
+/* 2 - Main content */
+
+
+
+/* 3 - More from a list apart */
+
+.box-lista{
+    border: 1px solid black;
+    height: 15rem;
+}
+
+.box-banner{
+    border: 1px solid black;
+    height: 7rem;
+    background: whitesmoke;
+}
+
+.title-lista{ 
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.no-appear{visibility: hidden;}
+
+.border-top{
+    border-top: 1px solid gainsboro;
+}
+
+
+.try-row{border:2px solid red; }
+
+
+/* 4 - Footer */
