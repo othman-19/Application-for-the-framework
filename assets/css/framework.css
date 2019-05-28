@@ -125,3 +125,165 @@ div[class*="col"]::after, div[rel*="col"]::after {
 
 .by-line{ color: black; font-weight: lighter;}
 
+/* css reset file*/
+
+*{box-sizing: border-box;}
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;font: inherit;
+vertical-align: baseline;
+}
+
+body
+{
+line-height: 1;
+font-size: 88%;
+}
+ 
+h1, h2, h3, h4, h5, h6
+{ font-size: 100%;
+  padding: .6em 0;
+  margin: 0 15px; }
+ 
+ul, ol{list-style: none;}
+ 
+img{border: 0;}
+
+
+/*grid*/
+
+body{
+    margin-right:0.5%;
+    margin-left:0%; }
+
+
+.col-1{
+    width:7.25%;
+    margin-left:0 0 1% 1%;
+    float:left; }
+
+
+.col-2{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-3{
+    width:23.75%;
+    margin:0 0 1% 1%;
+    float:left;
+    background: pink; }
+
+
+.col-4{
+    width:32%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-5{
+    width:40.25%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-6{
+    width:48.5%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-7{
+    width:56.75%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-8{
+    width:65%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-9{
+    width:73.25%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-10{
+    width:81.5%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-11{
+    width:89.75%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+.col-12{
+    width:98%;
+    margin:0 0 1% 1%;
+    float:left; }
+
+
+[class*="col"]::before{
+
+        content: "";
+        clear: both;
+        display: table; }
+    
+    
+div[rel*="col"]::after {
+        content: "";
+        clear: both;
+        display: table; }
+
+
+.try-row{
+            display: block;
+            clear: both; 
+            height: auto;
+            width: 100%; }
+
+
+
+/* Font styling */
+
+h2{ font-weight: bold; color: black; }
+
+h2:hover{ text-decoration: underline black; }
+
+p{ color: black; }
+
+h3{ color: gray;  }
+
+.author-line{ color: rgb(54, 103, 238); font-weight: bold; }
+
+.author-line:hover{text-decoration: underline rgb(54, 103, 238);}
+
+.by-line{ color: black; font-weight: lighter;}
+
+
+
+/* align elements */ 
+
+.text-center{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;   }
+
+
+
+/* Defining containers */
+
+.container{
+    margin-top: 2%;
+}
