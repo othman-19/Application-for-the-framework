@@ -4,14 +4,13 @@
 #navbar-ul{
     background:white;
     display: inline-block;
-
+   
    
 }
 
 .navbar-li{
     display:inline-block;
-    margin-left: 1em;
-    margin-top:1.8em;
+    margin:1.5em 0 0.5em 1em;
     font: Bolder 1em/1.2 'Libre Franklin', sans-serif; 
 }
 
@@ -19,22 +18,31 @@
     text-decoration: none;
     color:black
 }
-.navbar-logo{
+.navbar-logo-li{
     float:left;
-    margin-left: 1em;
+    margin:0 0.8em 0.8em;
+
 }
 
 
 
 #logo{
-   max-width: 20%;
     display:block;
-    margin:auto;
-    
+    margin-top:0.8em;
 }
 
 
-
+#form{
+    float:right;
+    border:1px solid black;
+    padding: 0.3em;
+    width:20em;
+    background: black;
+}
+#search-input{
+    width:60%;
+    
+}
 /* 2 - Main content */
 
 .box-main{
