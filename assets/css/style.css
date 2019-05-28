@@ -1,16 +1,15 @@
 /*NAVABAR*/
-
+nav{
+    background:rgba(255, 255, 255, 0.95);
+}
 
 #navbar-ul{
-    background:white;
     display: inline-block;
-   
-   
 }
 
 .navbar-li{
     display:inline-block;
-    margin:1.5em 0 0.5em 1em;
+    margin:1em 0 0.5em 1em;
     font: Bolder 1em/1.2 'Libre Franklin', sans-serif; 
 }
 
@@ -20,7 +19,7 @@
 }
 .navbar-logo-li{
     float:left;
-    margin:0 0.8em 0.8em;
+    margin:0 0.8em 0 0.8em;
 
 }
 
@@ -28,20 +27,26 @@
 
 #logo{
     display:block;
-    margin-top:0.8em;
+    margin-top:0.5em;
 }
 
 
 #form{
     float:right;
-    border:1px solid black;
-    padding: 0.3em;
-    width:20em;
+    margin:0.6em 3em 0 0;
+    padding: 2px;
+    width:15em;
+    height: 1.5em;
     background: black;
+    border-radius: 10px;
 }
 #search-input{
-    width:60%;
-    
+    width:80%; 
+    border-radius: 10px;
+    margin-left:0.3em;
+}
+#search-icon{
+    color:white;
 }
 /* 2 - Main content */
 
@@ -55,6 +60,11 @@
     height: 8rem;
 }
 
+#big-logo{
+    position:relative;
+    top:-3.2em;
+    z-index:-1;
+}
 
 
 /* 3 - More from a list apart */
