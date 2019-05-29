@@ -1,10 +1,20 @@
-# Application-for-the-framework
-# Contribution: Samuel Garcia.
-#              Othmane Naamani.
+# Application for our own framework
+
+Clone of Alistapart website https://alistapart.com/ 
+
+The design implements our own CSS framework which can be found here: 
+
+https://github.com/samgaco/grid-framework
 
 
-# Project:Design your own Grid-based Framework
+![](images/screenshot.png)
 
-# Original site: https://alistapart.com/
-# Live-Demo: https://othman-19.github.io/Application-for-the-framework/.
-# github Repo: https://github.com/othman-19/Application-for-the-framework
+Live demo: 
+
+https://othman-19.github.io/Application-for-the-framework/
+
+## Authors
+
+Othmane Naamani - [@othman-19] - othmanenaamani@gmail.com
+
+Samuel García Companys – [@samgaco] – samuelgarciacompanys@gmail.com
