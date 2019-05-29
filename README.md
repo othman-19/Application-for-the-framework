@@ -7,7 +7,7 @@ The design implements our own CSS framework which can be found here:
 https://github.com/samgaco/grid-framework
 
 
-![](images/screenshot.png)
+![](assets/images/screenshot.png)
 
 Live demo: 
 
