@@ -1,7 +1,6 @@
 /*NAVABAR*/
 ul{
     font-family: 'Libre Franklin', sans-serif;
-
 }
 nav{
     background:rgba(255, 255, 255, 0.95);
@@ -10,13 +9,10 @@ nav{
 #navbar-ul{
     display: inline-block;
 }
-
 .navbar-li{
     display:inline-block;
     margin:1em 0 0.5em 1em;
-
 }
-
 .navbar-li a{
     text-decoration: none;
     color:black
@@ -24,17 +20,11 @@ nav{
 .navbar-logo-li{
     float:left;
     margin:0 0.8em 0 0.8em;
-
 }
-
-
-
 #logo{
     display:block;
     margin-top:0.5em;
 }
-
-
 #form{
     float:right;
     margin:0.6em 3em 0 0;
@@ -60,17 +50,14 @@ nav{
     color:white;
     font-size: 0.8em;
 }
-
 #form:hover{
     animation: mymove 0.5s;
     animation-fill-mode: forwards;
-   }
-
+}
 @keyframes mymove {
     from {width: 8em;}
     to {width: 15em;}
-  }
-
+}
 #search-icon{
     color:white;
 }
@@ -115,16 +102,30 @@ nav{
     padding-top: 11%;
 }
 
-.date-above{height: 1.9rem; padding-bottom: 8%;}
+.date-above{
+    height: 1.9rem; padding-bottom: 8%;
+}
 
-.box-main-up{ height: 4rem; }
-.box-main h2{font-size: 2.5em;}
+.box-main-up{
+    height: 4rem;
+}
+.box-main h2{
+    font-size: 2.5em;
+}
 
-.box-main-mid{ height: 2rem; padding-left: 35%;}
-.box-main span{font-size: 1.2em;}
+.box-main-mid{
+    height: 2rem; padding-left: 35%;
+}
+.box-main span{
+    font-size: 1.2em;
+}
 
-.box-main-down{width: 100%; }
-.box-main p{font-size: 1.5em; margin-left: 0%; }
+.box-main-down{
+    width: 100%; 
+}
+.box-main p{
+    font-size: 1.5em; margin-left: 0%; 
+}
 
 #top-right-box{
     border-radius: 10px;
@@ -150,7 +151,9 @@ nav{
     padding-top: 3%;
 }
 
-.no-appear{visibility: hidden;}
+.no-appear{
+    visibility: hidden;
+}
 
 .border-top{
     border-top: 1px solid gainsboro;
@@ -158,14 +161,22 @@ nav{
 
 
 
-.h2-lista{ font-size: 1.2em;}
+.h2-lista{
+    font-size: 1.2em;
+}
 
-.h3-lista{font-size: 0.7em;}
+.h3-lista{
+    font-size: 0.7em;
+}
 
 
-.gborder{border: 1px solid gainsboro;}
+.gborder{
+    border: 1px solid gainsboro;
+}
 
-.wbackground{background: rgb(235, 235, 235); }
+.wbackground{
+    background: rgb(235, 235, 235); 
+}
 
 
 /* 3- ad columns at the right within the third container */
@@ -181,8 +192,8 @@ height: 7rem;
 }
 
 .ad2-down{
-padding: 1%;
-height: auto;
+    padding: 1%;
+    height: auto;
 }
 
 .ad2-down p{
@@ -192,7 +203,9 @@ height: auto;
 
 /* 3 - banner styling */
 
-.box-banner{height: auto; margin-top: 2%;}
+.box-banner{
+    height: auto; margin-top: 2%;
+}
 
 .box-banner p{
     margin-top: 2.5%;
@@ -200,7 +213,6 @@ height: auto;
     margin-right: 8%;
 }
 /* 4 - Footer */
-
 footer{
     margin-top: 10%;
     height: 25rem;
@@ -224,11 +236,12 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 
 
-.do-w-hover:hover{background: whitesmoke;}
+.do-w-hover:hover{
+    background: whitesmoke;
+}
 
 
 .box-footer-left{ 
@@ -238,9 +251,7 @@ footer{
 }
 
 .box-footer-left img{
-
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .box-footer-right{ 
@@ -270,24 +281,22 @@ footer{
 }
 
 .right-wing img{
-width: 35%; 
-margin-top: 1%;
-margin-left: 80%;
+    width: 35%; 
+    margin-top: 1%;
+    margin-left: 80%;
 }
 
 .left-wing img{
     width: 30%;
     margin-top: 20%;
-margin-left: 47%;
-    }
+    margin-left: 47%;
+}
 
-    #ISSN{
-        margin-top:5em;
-        font-size:0.9em;
-        
-    }
-    #Copyright{
-        margin-left:10em;
-        font-size:0.9em;
-
-    }
+#ISSN{
+    margin-top:5em;
+    font-size:0.9em;  
+}
+#Copyright{
+    margin-left:10em;
+    font-size:0.9em;
+}
