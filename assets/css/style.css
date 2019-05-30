@@ -132,7 +132,8 @@ nav{
     box-shadow: 5px 5px 10px #888888;
     background:rgba(255, 255, 255, 0.90);
     position:relative;
-    bottom:11em;
+    bottom:175px;
+    right: 40px;
 }
 /* 3 - More from a list apart */
 
