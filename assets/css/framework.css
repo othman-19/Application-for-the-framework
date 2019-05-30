@@ -54,6 +54,20 @@ img{
 
     .phone-del{display: none}
 
+    .col-2-new{
+        width:2em;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .col-2-new{
+        width:10em;
+        margin:0 0 1% 1%;
+        float:left;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -78,8 +92,10 @@ img{
         width:98%;
         margin:0 0 1% 1%;
         float:left;
-        border: 1px solid red;
     }
+
+
+
 
     .col-2-md{
         display: none;
@@ -98,7 +114,6 @@ img{
         width:98%;
         margin:0 0 1% 1%;
         float:left;
-        border: 1px solid red;
     }
     
     
@@ -181,6 +196,12 @@ body{
 
 
 .col-2{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+.col-2-new{
     width:15.5%;
     margin:0 0 1% 1%;
     float:left;
