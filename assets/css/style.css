@@ -120,9 +120,14 @@ nav{
     border-radius: 10px;
     box-shadow: 5px 5px 10px #888888;
     background:rgba(255, 255, 255, 0.90);
-    position:relative;
-    bottom:175px;
+    position:absolute;
+    top:50px;
     right: 40px;
+}
+@media screen and (max-width:768px){
+    .top-right-box{
+        top:10px;
+    }
 }
 /* 3 - More from a list apart */
 
@@ -173,12 +178,17 @@ nav{
 
 
 .ad2-up{
-height: 7rem;
+    height: 7rem;
 }
 
 .ad2-up img{
     margin-top: 4%;
     width: 37%;
+}
+
+.ad2-up-img{
+    margin-top: 4%;
+    width: 60%;
 }
 
 .ad2-down{

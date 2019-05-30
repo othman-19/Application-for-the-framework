@@ -40,6 +40,16 @@ img{
     margin:0 0 1% 1%;
     float: right;
 }
+.col-2-t-new{
+    width:180px;
+    height: 220px;
+    margin:0 0 1% 1%;
+    float: right;
+}
+
+.col-2-t-new p{
+    font-size:0.8em;
+}
 
 .col-3-t{
     width:250px;
@@ -48,7 +58,9 @@ img{
 }
 
 
-
+#bar{
+    display:none;
+}
 
 @media (max-width: 768px){
 
@@ -58,6 +70,29 @@ img{
         width:2em;
         margin:0 0 1% 1%;
         float:left;
+    }
+    
+    #top-right-box-p-div{
+        display:none;
+    }
+
+    .col-2-t-new{
+        width:90px;
+        height: 70px;
+        margin:0 0 1% 1%;
+        float: right;
+    }
+    #buddy-img{
+        display: block;
+        margin: auto;
+    }
+
+    .ad2-up-new{
+        height:0px;
+    }
+    #bar{
+        display:inline-block;
+        font-size:1.5em;
     }
 
 }
