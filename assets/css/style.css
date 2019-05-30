@@ -77,6 +77,10 @@ nav{
     z-index:-1;
 }
 
+#bars{
+    display:none;
+}
+
 .text-dates{
     font-weight: bold;
     font-size: 1.2em;
@@ -300,17 +304,25 @@ height: 7rem;
 
 
 
-@media screen and (max-width:768px;){
+@media screen and (max-width:768px){
 
     footer{
         margin-top: 10%;
         height: 55rem;
         background: rgb(91, 223, 31); }
 
-        .footer-logo{
-            margin-top: 0;
-            width: 820px;
-        }
+    .footer-logo{
+        margin-top: 0;
+        width: 820px;
+    }
+    #bars{
+        display:inline-block;
+        margin:0.5em;
+        font-size:1.2em;
+        font-weight: bolder;
+        color:black;
+    }
+
 }
 
     
