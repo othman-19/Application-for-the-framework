@@ -215,18 +215,6 @@ height: 7rem;
 }
 /* 4 - Footer */
 
-@media screen and (max-width:768px;){
-footer{
-    margin-top: 50%;
-    height: 45rem;
-    background: gainsboro;
-}}
-
-
-footer{
-    margin-top: 10%;
-    height: 25rem;
-    background: gainsboro; }
 
 #footer-ul{
     background: gainsboro;
@@ -242,7 +230,7 @@ footer{
 
 
 .box-footer{
-    height: 7rem;
+    height: 110px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -261,7 +249,7 @@ footer{
 }
 
 .box-footer-left img{
-    width: 100%;  
+    width: 120px;  
 }
 
 .box-footer-right{ 
@@ -285,11 +273,6 @@ footer{
 }
 
 
-.footer-logo{
-    margin-top: 2.5%;
-    width: 72%;
-}
-
 .right-wing img{
     width: 35%; 
     margin-top: 1%;
@@ -309,4 +292,54 @@ footer{
 .Copyright{
     margin-left:10em;
     font-size:0.9em;
+}
+
+
+
+/* Media Queries */
+
+
+
+@media screen and (max-width:768px;){
+
+    footer{
+        margin-top: 10%;
+        height: 55rem;
+        background: rgb(91, 223, 31); }
+
+        .footer-logo{
+            margin-top: 0;
+            width: 820px;
+        }
+}
+
+    
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    footer{
+        margin-top: 15%;
+        height: 25rem;
+        background: gainsboro; }
+
+
+        .footer-logo{
+            margin-top: 15px;
+            width: 820px;
+        }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    footer{
+        margin-top: 10%;
+        height: 26rem;
+        background: gainsboro; }
+
+        .footer-logo{
+            margin-top: 45px;
+            width: 820px;
+        }
+    
 }

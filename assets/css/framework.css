@@ -78,6 +78,10 @@ img{
         float:left;
         border: 1px solid red;
     }
+
+    .col-2-md{
+        display: none;
+    }
     
     
     .col-3{
@@ -175,6 +179,12 @@ body{
 
 
 .col-2{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+.col-2-md{
     width:15.5%;
     margin:0 0 1% 1%;
     float:left;
@@ -368,4 +378,8 @@ h3{
 
 .auto-box{
     height: auto;
+}
+
+.overflow-hid{
+    overflow: hidden;
 }
