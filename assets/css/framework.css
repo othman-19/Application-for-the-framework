@@ -48,6 +48,8 @@ img{
 }
 
 
+
+
 @media (max-width: 768px){
 
     .phone-del{display: none}
@@ -245,7 +247,7 @@ body{
     width:81.5%;
     margin:0 0 1% 1%;
     float:left;
-}
+}hidden
 
 
 .col-11{
@@ -372,6 +374,8 @@ h3{
 
 .container{
     margin-top: 2%;
+    margin-bottom: 150px;
+
 }
 
 /* Div propierties */ 

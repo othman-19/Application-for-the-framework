@@ -302,44 +302,28 @@ height: 7rem;
 
 @media screen and (max-width:768px;){
 
-    footer{
-        margin-top: 10%;
-        height: 55rem;
-        background: rgb(91, 223, 31); }
 
-        .footer-logo{
-            margin-top: 0;
-            width: 820px;
-        }
 }
 
     
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
-    footer{
-        margin-top: 15%;
-        height: 25rem;
-        background: gainsboro; }
 
-
-        .footer-logo{
-            margin-top: 15px;
-            width: 820px;
-        }
     
 }
 
 @media screen and (min-width: 1024px){
 
-    footer{
-        margin-top: 10%;
-        height: 26rem;
-        background: gainsboro; }
 
-        .footer-logo{
-            margin-top: 45px;
-            width: 820px;
-        }
-    
 }
+
+footer{
+    margin-top:0;
+    height: 40%;
+    background: gainsboro; }
+
+    .footer-logo{
+        margin-top: 45px;
+        width: 820px;
+    }
