@@ -6,7 +6,7 @@ nav{
     background:rgba(255, 255, 255, 0.95);
 }
 
-#navbar-ul{
+.navbar-ul{
     display: inline-block;
 }
 .navbar-li{
@@ -21,11 +21,11 @@ nav{
     float:left;
     margin:0 0.8em 0 0.8em;
 }
-#logo{
+.logo{
     display:block;
     margin-top:0.5em;
 }
-#form{
+.form{
     float:right;
     margin:0.6em 3em 0 0;
     padding: 2px;
@@ -35,22 +35,22 @@ nav{
     border-radius: 10px;
 }
 
-#form:hover{
+.form:hover{
     width:15em; 
 }
-#search-input:hover{
+.search-input:hover{
     width:80%;
 }
-#search-input{
+.search-input{
     width:80%; 
     border-radius: 10px;
     margin-left:0.3em;
 }
-#search-icon{
+.search-icon{
     color:white;
     font-size: 0.8em;
 }
-#form:hover{
+.form:hover{
     animation: mymove 0.5s;
     animation-fill-mode: forwards;
 }
@@ -58,7 +58,7 @@ nav{
     from {width: 8em;}
     to {width: 15em;}
 }
-#search-icon{
+.search-icon{
     color:white;
 }
 /* 2 - Main content */
@@ -71,7 +71,7 @@ nav{
     height: 3rem;
 }
 
-#big-logo{
+.big-logo{
     position:relative;
     top:-3.2em;
     z-index:-1;
@@ -127,7 +127,7 @@ nav{
     font-size: 1.5em; margin-left: 0%; 
 }
 
-#top-right-box{
+.top-right-box{
     border-radius: 10px;
     box-shadow: 5px 5px 10px #888888;
     background:rgba(255, 255, 255, 0.90);
@@ -213,11 +213,20 @@ height: 7rem;
     margin-right: 8%;
 }
 /* 4 - Footer */
+
+@media screen and (max-width:768px;){
+footer{
+    margin-top: 50%;
+    height: 45rem;
+    background: gainsboro;
+}}
+
+
 footer{
     margin-top: 10%;
     height: 25rem;
-    background: gainsboro;
-}
+    background: gainsboro; }
+
 #footer-ul{
     background: gainsboro;
 }
@@ -292,11 +301,11 @@ footer{
     margin-left: 47%;
 }
 
-#ISSN{
+.ISSN{
     margin-top:5em;
     font-size:0.9em;  
 }
-#Copyright{
+.Copyright{
     margin-left:10em;
     font-size:0.9em;
 }

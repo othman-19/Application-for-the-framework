@@ -32,6 +32,118 @@ img{
 
 /*grid*/
 
+/* for small screens */
+
+@media (max-width: 768px){
+
+    .phone-del{display: none}
+
+}
+
+@media (max-width: 1024px) {
+
+   .small-del{display: none}
+    
+    
+    body{
+        margin-right:0.5%;
+        margin-left:0%;
+    }
+    
+    
+    .col-1{
+        width:7.25%;
+        margin-left:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-2{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+        border: 1px solid red;
+    }
+    
+    
+    .col-3{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+        background: pink;
+    }
+    
+    
+    .col-4{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+        border: 1px solid red;
+    }
+    
+    
+    .col-5{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-6{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-7{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-8{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-9{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-10{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-11{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-12{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    } }
+    
+
+
+/* for big screens */
+
+@media (min-width: 1024px) {
+    
+    
 body{
     margin-right:0.5%;
     margin-left:0%;
@@ -120,7 +232,7 @@ body{
     width:98%;
     margin:0 0 1% 1%;
     float:left;
-}
+} }
 
 
 [class*="col"]::after{
