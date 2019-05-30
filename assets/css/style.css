@@ -136,8 +136,13 @@ nav{
     box-shadow: 5px 5px 10px #888888;
     background:rgba(255, 255, 255, 0.90);
     position:absolute;
-    top:10px;
+    top:50px;
     right: 40px;
+}
+@media screen and (max-width:768px){
+    .top-right-box{
+        top:10px;
+    }
 }
 /* 3 - More from a list apart */
 
