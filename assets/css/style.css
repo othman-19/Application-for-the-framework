@@ -135,8 +135,8 @@ nav{
     border-radius: 10px;
     box-shadow: 5px 5px 10px #888888;
     background:rgba(255, 255, 255, 0.90);
-    position:relative;
-    bottom:175px;
+    position:absolute;
+    top:10px;
     right: 40px;
 }
 /* 3 - More from a list apart */
@@ -188,12 +188,12 @@ nav{
 
 
 .ad2-up{
-height: 7rem;
+    height: 7rem;
 }
 
 .ad2-up img{
     margin-top: 4%;
-    width: 37%;
+    width: 60%;
 }
 
 .ad2-down{
@@ -321,6 +321,27 @@ height: 7rem;
         font-size:1.2em;
         font-weight: bolder;
         color:black;
+    }
+
+    #top-right-box-p-div{
+        display:none;
+    }
+
+    .col-2-t{
+        width:90px;
+        height: 70px;
+        margin:0 0 1% 1%;
+        float: right;
+    }
+    #buddy-img{
+        
+        
+        display: block;
+        margin: auto;
+    }
+
+    .ad2-up{
+        height:0px;
     }
 
 }
