@@ -51,10 +51,51 @@ img{
 }
 
 
+#bar{
+    display:none;
+}
+
 @media (max-width: 768px){
 
     .phone-del{display: none}
 
+    .col-2-new{
+        width:2em;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    #top-right-box-p-div{
+        display:none;
+    }
+
+    .col-2-t-new{
+        width:90px;
+        height: 70px;
+        margin:0 0 1% 1%;
+        float: right;
+    }
+    #buddy-img{
+        display: block;
+        margin: auto;
+    }
+
+    .ad2-up-new{
+        height:0px;
+    }
+    #bar{
+        display:inline-block;
+        font-size:1.5em;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .col-2-new{
+        width:10em;
+        margin:0 0 1% 1%;
+        float:left;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -79,8 +120,10 @@ img{
         width:98%;
         margin:0 0 1% 1%;
         float:left;
-        border: 1px solid red;
     }
+
+
+
 
     .col-2-md{
         display: none;
@@ -99,7 +142,6 @@ img{
         width:98%;
         margin:0 0 1% 1%;
         float:left;
-        border: 1px solid red;
     }
     
     
@@ -187,6 +229,12 @@ body{
     float:left;
 }
 
+.col-2-new{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
 .col-2-md{
     width:15.5%;
     margin:0 0 1% 1%;
@@ -248,7 +296,7 @@ body{
     width:81.5%;
     margin:0 0 1% 1%;
     float:left;
-}
+}hidden
 
 
 .col-11{
@@ -375,6 +423,8 @@ h3{
 
 .container{
     margin-top: 2%;
+    margin-bottom: 150px;
+
 }
 
 /* Div propierties */ 
