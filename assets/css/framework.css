@@ -1,0 +1,445 @@
+/* css reset file*/
+
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td{
+    margin: 0; padding: 0; border: 0; outline: none;font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    line-height: 1;
+    font-size: 88%;
+}
+ 
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%;
+    padding: .6em 0;
+    margin: 0 15px;
+}
+ 
+ul, ol{
+    list-style: none;
+}
+ 
+img{
+    border: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*grid*/
+
+/* for small screens */
+
+.col-2-t{
+    width:200px;
+    height: 275px;
+    margin:0 0 1% 1%;
+    float: right;
+}
+.col-2-t-new{
+    width:180px;
+    height: 220px;
+    margin:0 0 1% 1%;
+    float: right;
+}
+
+.col-2-t-new p{
+    font-size:0.8em;
+}
+
+.col-3-t{
+    width:250px;
+    margin:4% 50% 2% 1%;
+    float:left;
+}
+
+
+#bar{
+    display:none;
+}
+
+@media (max-width: 768px){
+
+    .phone-del{display: none}
+
+    .col-2-new{
+        width:2em;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    #top-right-box-p-div{
+        display:none;
+    }
+
+    .col-2-t-new{
+        width:90px;
+        height: 70px;
+        margin:0 0 1% 1%;
+        float: right;
+    }
+    #buddy-img{
+        display: block;
+        margin: auto;
+    }
+
+    .ad2-up-new{
+        height:0px;
+    }
+    #bar{
+        display:inline-block;
+        font-size:1.5em;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .col-2-new{
+        width:10em;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+}
+
+@media (max-width: 1024px) {
+
+   .small-del{display: none}
+    
+    
+    body{
+        margin-right:0.5%;
+        margin-left:0%;
+    }
+    
+    
+    .col-1{
+        width:7.25%;
+        margin-left:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-2{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+
+
+
+
+    .col-2-md{
+        display: none;
+    }
+    
+    
+    .col-3{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+        background: pink;
+    }
+    
+    
+    .col-4{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-5{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-6{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-7{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-8{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-9{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-10{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-11{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    }
+    
+    
+    .col-12{
+        width:98%;
+        margin:0 0 1% 1%;
+        float:left;
+    } }
+    
+
+
+/* for big screens */
+
+@media (min-width: 1024px) {
+
+.big-del{display: none}
+
+    
+    
+body{
+    margin-right:0.5%;
+    margin-left:0%;
+}
+
+
+.col-1{
+    width:7.25%;
+    margin-left:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-2{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+.col-2-new{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+.col-2-md{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-3{
+    width:23.75%;
+    margin:0 0 1% 1%;
+    float:left;
+    background: pink;
+}
+
+
+.col-4{
+    width:32%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-5{
+    width:40.25%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-6{
+    width:48.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-7{
+    width:56.75%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-8{
+    width:65%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-9{
+    width:73.25%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-10{
+    width:81.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}hidden
+
+
+.col-11{
+    width:89.75%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+.col-12{
+    width:98%;
+    margin:0 0 1% 1%;
+    float:left;
+} }
+
+
+[class*="col"]::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col"]::before{
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.try-row{
+    display: block;
+    clear: both; 
+    height: auto;
+    width: 100%; 
+}
+
+.h2{
+    font-weight: bold; color: black;
+}
+
+.h2:hover{
+    text-decoration: underline black;
+}
+
+.p{
+    color: black; 
+}
+
+.h3{
+    color: gray;  
+}
+
+.author-line{
+    color: rgb(54, 103, 238); font-weight: bold; 
+}
+
+.author-line:hover{
+    text-decoration: underline rgb(54, 103, 238);
+}
+
+.by-line{
+    color: black; font-weight: lighter;
+}
+
+/* Font styling */
+
+h2{
+    font-weight: bold; color: black; 
+}
+
+h2:hover{ 
+    text-decoration: underline black; 
+}
+
+p{ 
+    color: black; margin-left: 8%; margin-top: 1%; line-height: 1.5em; 
+}
+
+h3{ 
+    color: gray;  
+}
+
+.author-line{ 
+    color: rgb(54, 103, 238); font-weight: bold; 
+}
+
+.author-line:hover{
+    text-decoration: underline rgb(54, 103, 238);
+}
+
+.by-line{ 
+    color: black; font-weight: lighter; margin-left: 8%;
+}
+
+.h4{
+    font-weight: bold; color: black; font-size:8pt;
+}
+
+
+/* align elements */ 
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;   
+}
+
+.item-center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+
+.justify-left{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left; 
+}
+    
+
+/* Defining containers */
+
+.container{
+    margin-top: 2%;
+    margin-bottom: 150px;
+
+}
+
+/* Div propierties */ 
+
+.auto-box{
+    height: auto;
+}
+
+.overflow-hid{
+    overflow: hidden;
+}

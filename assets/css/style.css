@@ -1,0 +1,385 @@
+/*NAVABAR*/
+ul{
+    font-family: 'Libre Franklin', sans-serif;
+}
+nav{
+    background:rgba(255, 255, 255, 0.95);
+}
+
+.navbar-ul{
+    display: inline-block;
+}
+.navbar-li{
+    display:inline-block;
+    margin:1em 0 0.5em 1em;
+}
+.navbar-li a{
+    text-decoration: none;
+    color:black
+}
+.navbar-logo-li{
+    float:left;
+    margin:0 0.8em 0 0.8em;
+}
+.logo{
+    display:block;
+    margin-top:0.5em;
+}
+.form{
+    float:right;
+    margin:0.6em 3em 0 0;
+    padding: 2px;
+    width:8em;
+    height: 1.5em;
+    background: black;
+    border-radius: 10px;
+}
+
+.form:hover{
+    width:15em; 
+}
+.search-input:hover{
+    width:80%;
+}
+.search-input{
+    width:80%; 
+    border-radius: 10px;
+    margin-left:0.3em;
+}
+.search-icon{
+    color:white;
+    font-size: 0.8em;
+}
+.form:hover{
+    animation: mymove 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {width: 8em;}
+    to {width: 15em;}
+}
+.search-icon{
+    color:white;
+}
+/* 2 - Main content */
+
+.box-main{
+    height: auto;
+}
+
+.box-new{
+    height: 3rem;
+}
+
+.big-logo{
+    position:relative;
+    top:-3.2em;
+    z-index:-1;
+}
+
+
+.box-new{
+    padding-left: 2%;
+}
+
+
+
+.text-newmini{
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 11%;
+}
+
+.date-above{
+    height: 1.9rem; padding-bottom: 8%;
+}
+
+.box-main-up{
+    height: 4rem;
+}
+.box-main h2{
+    font-size: 2.5em;
+}
+
+.box-main-mid{
+    height: 2rem; padding-left: 35%;
+}
+.box-main span{
+    font-size: 1.2em;
+}
+
+.box-main-down{
+    width: 100%; 
+}
+.box-main p{
+    font-size: 1.5em; margin-left: 0%; 
+}
+
+.top-right-box{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    background:rgba(255, 255, 255, 0.90);
+    position:absolute;
+    top:50px;
+    right: 40px;
+}
+@media screen and (max-width:768px){
+    .top-right-box{
+        top:10px;
+    }
+}
+/* 3 - More from a list apart */
+
+.box-lista{
+    height: auto;
+}
+
+.box-banner{
+    height: 7rem;
+    background: gainsboro;
+}
+
+.title-lista{ 
+    font-size: 2.5em;
+    font-weight: lighter;
+    padding-top: 3%;
+}
+
+.no-appear{
+    visibility: hidden;
+}
+
+.border-top{
+    border-top: 1px solid gainsboro;
+}
+
+
+
+.h2-lista{
+    font-size: 1.2em;
+}
+
+.h3-lista{
+    font-size: 0.7em;
+}
+
+
+.gborder{
+    border: 1px solid gainsboro;
+}
+
+.wbackground{
+    background: rgb(235, 235, 235); 
+}
+
+
+/* 3- ad columns at the right within the third container */
+
+
+.ad2-up{
+    height: 7rem;
+}
+
+.ad2-up img{
+    margin-top: 4%;
+    width: 37%;
+}
+
+.ad2-up-img{
+    margin-top: 4%;
+    width: 60%;
+}
+
+.ad2-down{
+    padding: 1%;
+    height: auto;
+}
+
+.ad2-down p{
+    margin-right: 8%;
+    margin-bottom: 2%;
+}
+
+/* 3 - banner styling */
+
+.box-banner{
+    height: auto; margin-top: 2%;
+}
+
+.box-banner p{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 8%;
+}
+/* 4 - Footer */
+
+
+#footer-ul{
+    background: gainsboro;
+}
+#footer-ul-social{
+    margin-top:0.5em;
+}
+
+.footer-images{
+    height: 7rem;
+    display: block;
+}
+
+
+.box-footer{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.do-w-hover:hover{
+    background: whitesmoke;
+}
+
+
+.box-footer-left{ 
+    width: 40%;
+    height: 100%;
+    padding: 3%;
+}
+
+.box-footer-left img{
+    width: 120px;  
+}
+
+.box-footer-right{ 
+    width: 60%;
+    height: 100%;
+}
+
+.box-footer-right h2{
+    margin-top: 4%;
+    font-size: 0.9em;
+}
+
+.box-footer-right p{
+    font-size: 0.7em;
+
+}
+
+.box-footer-right span{
+    font-size: 0.75em;
+    margin-left: 8%;
+}
+
+
+.right-wing img{
+    width: 35%; 
+    margin-top: 1%;
+    margin-left: 80%;
+}
+
+
+.left-wing img{
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 47%;
+}
+
+.col-2-wings{
+    width:15.5%;
+    margin:0 0 1% 1%;
+    float:left;
+}
+
+
+
+.right-wing-sm img{
+    width: 60px; 
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.left-wing-sm img{
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+
+.ISSN{
+    margin-top:5em;
+    font-size:0.9em;  
+}
+.Copyright{
+    margin-left:10em;
+    font-size:0.9em;
+}
+
+
+
+/* Media Queries */
+
+
+.text-dates{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 2%;
+}
+
+@media screen and (max-width:1024px){
+
+
+    .text-dates-first{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 2%;
+        width: 110px;
+     
+    }
+
+    .new-minibox{
+        height: 1.5rem;
+        width: 3rem;
+        background: firebrick;
+        margin-top: 2%;
+        margin-left: 100px;
+        border-radius: 3px;
+    }
+    
+    .h3-lista{
+        font-size: 0.7em;
+        margin-left: 4em;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .text-dates{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 2%;
+    }
+
+    .new-minibox{
+        height: 1.5rem;
+        width: 3rem;
+        background: firebrick;
+        margin-top: 2%;
+        border-radius: 3px;
+    }
+
+}
+
+footer{
+    margin-top:0;
+    height: 40%;
+    background: gainsboro; }
+
+
+
+    .footer-logo{
+        margin-top: 25px;
+        width: 970px; }
