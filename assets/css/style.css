@@ -77,12 +77,27 @@ nav{
     z-index:-1;
 }
 
+#bars{
+    display:none;
+}
+
+.text-dates{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 2%;
+}
 
 .box-new{
     padding-left: 2%;
 }
 
-
+.new-minibox{
+    height: 1.5rem;
+    width: 3rem;
+    background: firebrick;
+    margin-top: 2%;
+    border-radius: 3px;
+}
 
 .text-newmini{
     color: white;
@@ -183,11 +198,6 @@ nav{
 
 .ad2-up img{
     margin-top: 4%;
-    width: 37%;
-}
-
-.ad2-up-img{
-    margin-top: 4%;
     width: 60%;
 }
 
@@ -278,33 +288,11 @@ nav{
     margin-left: 80%;
 }
 
-
 .left-wing img{
     width: 30%;
     margin-top: 20%;
     margin-left: 47%;
 }
-
-.col-2-wings{
-    width:15.5%;
-    margin:0 0 1% 1%;
-    float:left;
-}
-
-
-
-.right-wing-sm img{
-    width: 60px; 
-    margin-top: 40px;
-    margin-right: 10px;
-}
-
-.left-wing-sm img{
-    width: 60px;
-    margin-top: 40px;
-    margin-left: 0;
-}
-
 
 .ISSN{
     margin-top:5em;
@@ -320,66 +308,76 @@ nav{
 /* Media Queries */
 
 
-.text-dates{
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-top: 2%;
+
+@media screen and (max-width:768px){
+
+    footer{
+        margin-top: 10%;
+        height: 55rem;
+        background: rgb(91, 223, 31); }
+
+    .footer-logo{
+        margin-top: 0;
+        width: 820px;
+    }
+    #bars{
+        display:inline-block;
+        margin:0.5em;
+        font-size:1.2em;
+        font-weight: bolder;
+        color:black;
+    }
+
+    #top-right-box-p-div{
+        display:none;
+    }
+
+    .col-2-t{
+        width:90px;
+        height: 70px;
+        margin:0 0 1% 1%;
+        float: right;
+    }
+    #buddy-img{
+        
+        
+        display: block;
+        margin: auto;
+    }
+
+    .ad2-up{
+        height:0px;
+    }
+
 }
 
-@media screen and (max-width:1024px){
-
-
-    .text-dates-first{
-        font-weight: bold;
-        font-size: 1.2em;
-        margin-top: 2%;
-        width: 110px;
-     
-    }
-
-    .new-minibox{
-        height: 1.5rem;
-        width: 3rem;
-        background: firebrick;
-        margin-top: 2%;
-        margin-left: 100px;
-        border-radius: 3px;
-    }
     
-    .h3-lista{
-        font-size: 0.7em;
-        margin-left: 4em;
-    }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    footer{
+        margin-top: 15%;
+        height: 25rem;
+        background: gainsboro; }
 
 
+        .footer-logo{
+            margin-top: 15px;
+            width: 820px;
+        }
+    
 }
-
 
 @media screen and (min-width: 1024px){
 
-    .text-dates{
-        font-weight: bold;
-        font-size: 1.2em;
-        margin-top: 2%;
-    }
+    footer{
+        margin-top: 10%;
+        height: 26rem;
+        background: gainsboro; }
 
-    .new-minibox{
-        height: 1.5rem;
-        width: 3rem;
-        background: firebrick;
-        margin-top: 2%;
-        border-radius: 3px;
-    }
-
+        .footer-logo{
+            margin-top: 45px;
+            width: 820px;
+        }
+    
 }
-
-footer{
-    margin-top:0;
-    height: 40%;
-    background: gainsboro; }
-
-
-
-    .footer-logo{
-        margin-top: 25px;
-        width: 970px; }

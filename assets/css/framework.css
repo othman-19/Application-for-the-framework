@@ -35,19 +35,12 @@ img{
 /* for small screens */
 
 .col-2-t{
-    width:200px;
-    height: 275px;
-    margin:0 0 1% 1%;
-    float: right;
-}
-.col-2-t-new{
     width:180px;
     height: 220px;
     margin:0 0 1% 1%;
     float: right;
 }
-
-.col-2-t-new p{
+.col-2-t p{
     font-size:0.8em;
 }
 
